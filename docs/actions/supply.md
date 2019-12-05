@@ -154,14 +154,13 @@ You can add changelog files under the `changelogs/` directory for each locale. T
 ```no-highlight
 └── fastlane
     └── metadata
-        └── android
-            ├── en-US
-            │   └── changelogs
-            │       ├── 100000.txt
-            │       └── 100100.txt
-            └── fr-FR
-                └── changelogs
-                    └── 100100.txt
+        ├── en-US
+        │   └── changelogs
+        │       ├── 100000.txt
+        │       └── 100100.txt
+        └── fr-FR
+            └── changelogs
+                └── 100100.txt
 ```
 
 ## Track Promotion
